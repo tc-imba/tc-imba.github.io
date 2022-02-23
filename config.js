@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I\'m currently a Ph.D student in Nanyang Technological University (NTU), Singapore. I\'m an graduate researcher in [SCALE](https://www.ntu.edu.sg/scale/about-us) lab, supervised by Prof. Tang Xueyan, currently working on Algorithms in Multi-Agent Systems.',
     'Despite my current research topic, my research interest spread widely in operating systems, distributed systems, network security and algorithms. "Practice is the sole criterion of truth", I would like to build effective systems and platforms for researchers, developers and the community. I\'m ready to contribute to any small improvement of the infrastructure.',
-    'Besides a researcher, I started my life as a programmer and developer when I was a child, playing games made by RPG Maker and trying to make some of them on my own which contains a bit of programming. In high school, after some self learning on the forum, I was able to make an RPG map with thousand of lines of code (of a language similar to Basic/C++) in Warcraft III. Thanks to NOIP (National Olympiad in Informatics in Provinces) in China, I learned C/C++ in my early ages and it becomes by most confident language. Though I was defeated in the competition by the compiler :), I developed interest in other fields in computer science when I tried to find out why it happened. Later as an undergraduate, I was deeply attracted by the open source community and became an active developer in many projects.',
+    'Besides a researcher, I started my life as a programmer and developer quite early. I learned C/C++ and attended NOIP (National Olympiad in Informatics in Provinces) in China and it becomes my most confident language. I developed my interest in other fields in computer science when I tried to find out what exactly happened behind these code I wrote. I was deeply attracted by the open source community and became an active developer in many projects as well.',
     'Learning is the passion of my life, learning new knowledge in different fields, learning new programming languages, frameworks and features, and even learning how to play games all inspire me. My passion in learning can be witnessed by my proficiency in various OSs and programming languages. I\'m always curious about the latest language features of C++ and Python; I helped the development of many Java projects, from Swagger API to Minecraft Mods; I developed and maintained web services across many types of Linux distributions during my undergraduate study; I can process data science (my undergraduate minor) tasks in scientific Python, MATLAB, Julia, and Mathematica; I\'m also broadening my language family by learning some new ones such as Go and Rust.',
     'As a fullstack developer skilled in Python, Javascript (React), SQL, CSS and many others, I built the theme of this website with [Gatsby](https://www.gatsbyjs.com/). The theme is named "gatsby-theme-academic", which is specially designed for academic usage by researchers and students. It is still under development and will be open-sourced soon, please check this [post](/posts/hello-world) for details.'
   ],
@@ -136,21 +136,20 @@ module.exports = {
         },
       ],
     }, {
-      title: 'Open Source Project',
+      title: 'Open Source Community',
       position: 'left',
       data: [
-        {
-          date: '2021 - Present',
-          title: 'Researcher and Backend Developer',
-          description: '[Brick Schema](https://github.com/orgs/BrickSchema/repositories): ' +
-            'Open-source ontology for building assets, subsystems and data',
-          location: 'on GitHub',
-        },
         {
           date: 'Fall 2018 - Present',
           title: 'Leader and Fullstack Developer',
           description: '[Joint Online Judge](https://github.com/joint-online-judge): ' +
             'Open source code judging and evaluation platform powered by async programming, containerization and modern frontend',
+          location: 'on GitHub',
+        }, {
+          date: '2021 - Present',
+          title: 'Researcher and Backend Developer',
+          description: '[Brick Schema Example Server](https://github.com/BrickSchema/brick-example-server): ' +
+            'Open-source ontology for building assets, subsystems and data',
           location: 'on GitHub',
         },
       ],

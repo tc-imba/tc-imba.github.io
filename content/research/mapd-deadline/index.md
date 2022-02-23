@@ -28,5 +28,3 @@ links:
 
 Multi-Agent Pickup and Delivery with Individual Deadlines
 
-(under construction ... )
-
