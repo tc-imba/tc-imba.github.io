@@ -6094,10 +6094,10 @@ gatsby-telemetry@^2.14.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-academic@^2.0.0-alpha.3:
-  version "2.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-academic/-/gatsby-theme-academic-2.0.0-alpha.3.tgz#90d6cd9d070c21669c0eb2b226a3adf343739dc8"
-  integrity sha512-xoAN6hEm63JaK6qTEyF9TjcWplosN3+lCRL+K5WQmr6a/QFY1QziM0vwuAkh/4btmrFiHlFCuy/wqsctoCKQoA==
+gatsby-theme-academic@^2.0.0-alpha.4:
+  version "2.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-academic/-/gatsby-theme-academic-2.0.0-alpha.4.tgz#8477e8fd9e7e1fe2fba47ab14232f167805c27fe"
+  integrity sha512-WbGtsWMXXYp62w0yjO8uyw8sM7RXYXZlysKrEzBSIFuYlopJWBkxCkOoUd72akOj9DJwGXHW3+R5b0t0p2R8NQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
     "@fortawesome/free-brands-svg-icons" "^5.15.4"
