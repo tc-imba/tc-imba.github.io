@@ -133,6 +133,21 @@ module.exports = {
           title: 'Teaching Assistant',
           description: 'VG101 (Introduction to Computer and Programming)',
           location: 'Shanghai Jiao Tong University, China',
+        }, {
+          date: 'Spring 2020',
+          title: 'Teaching Assistant',
+          description: 'CZ2007 (Introduction To Databases)',
+          location: 'Nanyang Technological University, Singapore',
+        }, {
+          date: 'Fall 2020',
+          title: 'Teaching Assistant',
+          description: 'CZ1115 (Introduction to Data Science and Artificial Intelligence)',
+          location: 'Nanyang Technological University, Singapore',
+        }, {
+          date: 'Spring 2021  ',
+          title: 'Teaching Assistant',
+          description: 'CZ2005 (Operating Systems)',
+          location: 'Nanyang Technological University, Singapore',
         },
       ],
     }, {
@@ -152,6 +167,18 @@ module.exports = {
             'Open-source ontology for building assets, subsystems and data',
           location: 'on GitHub',
         },
+      ],
+    }, {
+      title: 'Startup',
+      position: 'left',
+      data: [
+        {
+          date: 'Fall 2023 - Present',
+          title: 'Leader and Fullstack Developer',
+          description: '[Bubbleteach](https://bubbleteach.org/): ' +
+            'A startup company that provides online education service to students in Singapore.',
+          location: 'Singapore',
+        }
       ],
     },
   ],

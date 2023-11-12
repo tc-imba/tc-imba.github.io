@@ -1,12 +1,11 @@
 ---
-title: "Minimal Service of Brick Schema"
+title: "Playground: A Safe Building Operating"
 tags:
 - "os"
-- "open source"
-- "backend"
+- "building"
 date: Oct 2020 - Present
 path: "research/brick"
-excerpt: We build a backend service based on brick schema to provide an interface between the underlying building hardware and developers. 
+excerpt: Building operating systems are an emerging class of system software that provides services to applications running on commercial buildings. The current state-of-the-art requires applications to be trusted and carefully monitored due to a lack of authorization, access control, and execution isolation mechanisms in existing building operating systems. Proposed solutions do not adequately handle the complexity and scale of modern buildings, therefore impeding the adoption of applications that can enhance energy efficiency, occupant health, comfort, and productivity. This work explores the execution of **untrusted** user-facing applications in smart building environments with a focus on maintenance and management labor costs, ensuring the practicality and long-term sustainability of adopting such applications. We develop an operating system abstraction for smart buildings, \name, that incorporates a structured semantic representation of the building to inform the safe, multi-tenant execution of untrusted applications. We use the semantic representation to implement (a) a novel graph-based capability mechanism for fine-grained and expressive access control management, and (b) a resource isolation mechanism with preemptive interventions and passive telemetry-based live resource monitoring. We demonstrate \name on several real applications in a real building.
 selected: true
 cover: "./preview.png"
 links:
@@ -28,7 +27,7 @@ links:
 > 
 > From https://brickschema.org/
 
-# Progress
+# Brick Minimal
 
 Currently, we have built a minimal service which can handle most user operations on the building hardware. The service contains:
 
@@ -43,9 +42,10 @@ Containerization is used everywhere in the project:
 + User applications are run in docker containers (docker in docker) to prevent malicious code from developers
 + A docker compose file is provided to deploy all services rapidly
 
-# Future Work
+# Brick Playground
 
-Though the minimal service is out of box and ready to use, there are still many challenges before it can be published:
+Though the minimal service is out of box and ready to use, there are still many challenges before it can be published.
+These are solved in the playground.
 
 + The minimal service only supports basic authorization, the permission of users are not well handled
 + We built the service based on many scalable tools, while the scalability of the service hasn't been evaluated

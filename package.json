@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
-    "clean": "gatsby clean"
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
+    "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "clean": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby clean"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "gatsby-theme-academic": "^2.0.0-alpha.6",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3"
   }
 }
