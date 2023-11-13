@@ -36,7 +36,7 @@ module.exports = {
   },
   social: [
     {
-      url: '/resume.pdf',
+      url: '/CV.pdf',
       icon: ['ai', 'cv'],
     }, {
       url: 'https://github.com/tc-imba',
