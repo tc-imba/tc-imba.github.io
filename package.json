@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
-    "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
-    "clean": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby clean"
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/tc-imba/tc-imba.github.io#readme",
   "dependencies": {
-    "gatsby": "^3.14.0",
-    "gatsby-theme-academic": "^2.0.0-alpha.6",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "gatsby": "^5.12.9",
+    "gatsby-theme-academic": "^2.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "cross-env": "7.0.3"
