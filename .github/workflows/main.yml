@@ -40,6 +40,7 @@ jobs:
       - run: npm i -g yarn
       - run: yarn
       - run: yarn build
+      - run: touch public/.nojekyll
       - name: Deploy to GitHub Pages
         if: success() && github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v2
