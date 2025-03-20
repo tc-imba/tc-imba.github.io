@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tc-imba/tc-imba.github.io#readme",
   "dependencies": {
     "gatsby": "^5.12.9",
-    "gatsby-theme-academic": "^2.1.1",
+    "gatsby-theme-academic": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
