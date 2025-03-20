@@ -10,4 +10,3 @@ selected: false
 cover: "./preview.png"
 ---
 
-
